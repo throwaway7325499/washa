@@ -1,0 +1,47 @@
+cmd
+/*
+# Real code for Python. Do not edit uneducated. These are variables of ANSI escape colors for CLI.
+tcolor = "\033[40;93m"
+tcolorr = "\033[40;91m"
+tcolorg = "\033[40;92m"
+tcolorb = "\033[40;94m"
+tcolorx = "\033[48;2;0;90;128;96m"
+*/
+
+terminal
+/*
+# Do not edit uneducated.
+tcolor = "\033[40m"
+tcolorr = "\033[40;91m"
+tcolorg = "\033[40;92m"
+tcolorb = "\033[40;36m"
+tcolorx = "\033[0m"
+*/
+
+html,body{background-color:#0c0c0c; color:#9900ff; font-family:consolas, courier; font-size:14px;}
+a{color:#cc33ff;}
+a:visited{color:#cccccc;}
+.aqua{background-color:#006666; color:#33ffff; border:1px solid #22cccc;}
+.aquatext{color:#008888}
+.carbon, .time{background-color:#161616; border:1px solid #666666;}
+.time{color:#ffffff;}
+.electricindigo, .media, .mySlides{border:1px solid #9900ff;}
+.media{background-color:#220044;}
+.edits{background-color:#330717; border:1px solid #912; color:#f45;}
+.previous{background-color:#f1f1f1; color:black; border:none; border-radius:10px; cursor:pointer;}
+.next{background-color:#444; color:white; border:none; border-radius:10px; cursor:pointer;}
+.closebtn{background-color:rgba(0, 0, 0, 0.5); color:#fff; border:none; border-radius:10px; cursor:pointer;}
+
+@media (prefers-color-scheme: light) {html,body{background-color:#10100c; color:#088 /*cb7*/; font-family:consolas, courier; font-size:14px;}
+a{color:#dc8 /*efdfa8*/;}
+a:visited{color:#cccccc;}
+.aqua{background-color:#006666; color:#33ffff; border:1px solid #22cccc;}
+.aquatext{color:#22cccc}
+.carbon, .time{background-color:#10100c; border:4px solid #6a6a66; border-radius:16px;}
+.time{color:#ffffff;}
+.electricindigo, .media, .mySlides{background-color:#1c1a19; border:none; border-radius:16px;}
+.media{background-color:#112230 /*07300f*/; border:4px solid #367 /*192*/; border-radius:16px;}
+.edits{background-color:#330717; border:4px solid #912; border-radius:16px; color:#f45;}
+.previous{background-color:#f1f1f1; color:black; border:none; border-radius:10px; cursor:pointer;}
+.next{background-color:#444; color:white; border:none; border-radius:10px; cursor:pointer;}
+.closebtn{background-color:rgba(0, 0, 0, 0.5); color:#fff; border:none; border-radius:10px; cursor:pointer;}}
